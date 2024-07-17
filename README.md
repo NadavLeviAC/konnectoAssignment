@@ -14,3 +14,4 @@ To set up the project, run:
 
 ```bash
 npm run prepare
+npm start
