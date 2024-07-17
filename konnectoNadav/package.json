@@ -1,0 +1,25 @@
+{
+  "name": "konnecto2",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "npm run build && npm run execute",
+    "build": "npx tsc",
+    "execute": "node dist/Page1.js && node dist/Page2.js && node dist/Page3.js && node dist/Page4.js",
+    "prepare": "npm install"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "fs-extra": "^11.2.0",
+    "selenium-webdriver": "^4.22.0",
+    "typescript": "^5.5.3"
+  },
+  "devDependencies": {
+    "@types/fs-extra": "^11.0.4",
+    "@types/selenium-webdriver": "^4.1.24",
+    "@types/node": "^17.0.15"
+  }
+}
